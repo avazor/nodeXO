@@ -12,7 +12,6 @@ class GameState {
 	setPlayer(player) {
 		this.player = player;
 		this.ai = player === 'X' ? 'O' : 'X';
-		//this.currentPlayer = this.player;
 	}
 
 	checkWinner() {

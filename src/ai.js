@@ -21,7 +21,7 @@ class AI {
 
 	minimax(depth, player) {
 		if (this.gameState.checkWinner()) {
-			const score = this.getScore(player, depth);
+			const score = this.getScore(depth);
 			return score;
 		}
 
@@ -55,7 +55,7 @@ class AI {
 		return bestScore;
 	}
 
-	getScore(player, depth) {
+	getScore(depth) {
 		const winner = this.gameState.checkWinner();
 		if (winner === this.player) {
 			const score = 10 - depth;
