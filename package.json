@@ -1,0 +1,19 @@
+{
+  "name": "nodexo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "xo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nodexo"
+  },
+  "author": "Alex Semion",
+  "license": "ISC",
+  "dependencies": {
+    "console-sync": "^0.0.1",
+    "node": "^19.6.1"
+  }
+}
